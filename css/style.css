@@ -588,10 +588,19 @@ footer a:visited {
 	 
 	 clear:both;
 	 display:inline-block;
+	 text-align:center;
 	 width:100%;
 	 
 }
- 
+ .box_podcast video{
+	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:90%;
+	 
+}
  
  
   .box h3{
@@ -621,7 +630,25 @@ footer a:visited {
  margin-bottom:0;
  padding:0;
   }
+	.box_podcast{
 	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:100%;
+	 
+}
+
+.box_podcast video{
+	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:90%;
+	 
+}
 	
 }
 
@@ -642,7 +669,25 @@ footer a:visited {
  margin-bottom:0;
  padding:0;
   }
+.box_podcast{
 	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:100%;
+	 
+}
+
+.box_podcast video{
+	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:90%;
+	 
+}
 	
 }
 
@@ -668,6 +713,27 @@ nav ul {
     
 	
 }
+
+.box_podcast{
+	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:100%;
+	 
+}
+
+.box_podcast video{
+	
+	 
+	 clear:both;
+	 display:inline-block;
+	 text-align:center;
+	 width:90%;
+	 
+}
+ 
 
 .now{
 
