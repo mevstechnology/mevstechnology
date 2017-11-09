@@ -108,7 +108,7 @@ input[type=checkbox]:checked ~ #menu{
 .logo{
 
 	background-color: #100F15;
-	background :url("http://mevstechnology.com/images/logo.jpg");
+	background :url("../images/logo.jpg");
 	width:1220px;
 	height:356px;
 	width:90%;
@@ -794,7 +794,7 @@ nav li ul li {
 	.logo{
 
 	background-color: #100F15;
-	background :url("http://mevstechnology.com/images/logo_small.png");
+	background :url("../images/logo_small.png");
 	width:760px;
 	height:227px;
 	width:100%;
@@ -1093,7 +1093,7 @@ nav li ul li {
 	.logo{
 
 	background-color: #100F15;
-	background :url("http://mevstechnology.com/images/logo600.png");
+	background :url("../images/logo600.png");
 	width:760px;
 	height:227px;
 	width:100%;
