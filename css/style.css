@@ -1,0 +1,1092 @@
+/*******************************************
+   Style main menu. unordered list. 
+********************************************/
+body{
+	width:100%;
+	margin:0;
+    padding:0;
+
+	
+}
+
+
+nav ul {
+  list-style-type:none;
+  display: inline-block;
+  text-align: center;
+  width:90%;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:5%;
+  margin-right:5%;
+  padding:0;
+  background-color: #100F15;
+ 
+    
+	
+}
+
+nav li {
+
+ font-family: 'Oswald', sans-serif;
+ font-size: 30px;
+ text-align: center;
+ width: 160px;
+ border-bottom: none;
+ height: 50px;
+ line-height: 50px;
+ display: inline-block;
+ background-color: #100F15;
+ margin-bottom:0;
+ padding:0;
+  }
+  
+    
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: none;
+  }
+
+nav a:hover {
+  background-color: #14344D;
+}
+
+
+nav a.active {
+
+color: #14344D;
+
+}
+
+
+  /* Sub Menus */ 
+nav li ul {
+	
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+nav li:hover ul {
+    display: block;
+	margin-left:0;
+	margin-bottom:0;
+  }
+
+nav li ul li {
+    display: block;
+	font-size: 24px;
+  }
+
+
+  
+  /*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: 'Oswald', sans-serif;
+	font-size: 34px;
+    text-decoration: none;
+	color: #fff;
+    background-color: #100F15;
+    text-align: right;
+    padding: 10px 0;
+    display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+.logo{
+
+	background-color: #100F15;
+	background :url("http://mevstechnology.com/images/logo.jpg");
+	width:1220px;
+	height:356px;
+	width:90%;
+	margin-top:0;
+  margin-left:5%;
+  margin-right:5%;
+  padding:0;
+	
+}
+
+.now{
+height: 50px;
+
+text-decoration: none;
+  color: grey;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color:#14344D;
+  }
+
+/*******************************************
+   Style Navigation url under logo
+********************************************/
+
+
+.navigation p{
+	margin-left:5%;
+	font-size:14px;
+	color: #145113;
+	padding-bottom:0;
+		
+}
+.navigation  a{
+	  
+	  text-decoration:none;
+	  color: #145113;
+	  padding-bottom:0;
+	  
+  }
+
+
+	/* mouse over link */
+.navigation a:hover{
+	text-align:left;
+	color: #145113;
+	font-weight:bold;
+		
+	  
+  }
+
+ /*******************************************
+   Style aside icons
+********************************************/ 
+  .devices{
+float:left;
+padding:0;
+margin-top:5%;
+margin-left:5%;
+width:10%;
+height:500px;
+	
+
+	
+}
+
+.devices img{
+	width:100px;
+	height:100px;
+	padding-top:20px;
+	
+	
+}
+
+  .sidemenue{
+float:left;
+padding:0;
+margin-top:5%;
+margin-left:5%;
+width:10%;
+height:500px;
+padding-bottom:350px;
+	
+
+	
+}
+
+.sidemenue img{
+	width:100px;
+	height:100px;
+	padding-top:20px;
+	
+	
+}
+
+
+/*******************************************
+   Style article
+********************************************/
+  
+  
+  article{
+	margin-left:5%;
+	width:90%;
+	float:left;
+	padding-bottom:100px;
+	
+	
+	
+}
+
+.twoColmns{
+	margin-left:5%;
+	margin-right:0%;
+	width:75%;
+	float:left;
+	padding-bottom:100px;
+	
+	
+}
+
+.twoColmns h2{
+	text-align:center;
+	font-size:25px;
+	color: #258924;
+}
+
+
+
+.threeColumns{
+	margin-left:0;
+	margin-right:0%;
+	width:65%;
+	float:left;
+	padding-bottom:100px;
+	
+	
+}
+
+.threeColumns h2{
+	text-align:center;
+	font-size:25px;
+	color: #258924;
+}
+
+article h1{
+	text-align:center;	
+	font-size:35px;
+	color: #258924;
+	font-weight: bold;
+}
+
+article h2{
+	text-align:left;
+	font-size:25px;
+	color: #258924;
+	
+}
+
+article h3{
+	text-align:left;
+	font-size:22px;
+	color: #258924;
+	
+}
+article p {
+	
+	text-align:left;
+	font-size:18px;
+	color: #258924;
+	padding-left:5px;
+	margin-bottom:10px;
+	
+}
+  
+article dl{
+	
+	text-align:center; 
+	  
+  }
+  
+article dt{
+	text-align:center; 
+	font-size:18px;
+	color: #258924;
+	font-weight: bold;
+	  
+  }
+  
+  
+article dd{
+	text-align:left; 
+	font-size:18px;
+	color: #258924;
+	  
+  }
+  
+article ol{
+	display: inline-block;
+    
+  }
+  
+  
+article li{
+	text-align:left;
+	font-size:18px;
+	color: #258924;
+	
+  }
+  
+article img{	
+	display: block;
+    margin: 0 auto;
+  }
+  
+article a{
+	font-size:18px;
+	text-decoration:none;
+	color: #145113;
+	  
+  }
+  
+/* unvisited link */
+	article a:link {
+    font-size:18px;
+	text-decoration:none;
+	color: #145113;
+}
+
+/* visited link */
+
+article a:visited {
+    color: #145113;
+	text-decoration:none;
+}
+
+/* mouse over link */
+article a:hover{
+	text-align:left;
+	color: #145113;
+	font-weight:bold;
+		
+	  
+  }
+  
+  
+/* selected link */
+article  a:active {
+    color: #145113;
+	font-weight:bold;
+}
+	
+article dt{
+	text-align:left;
+	font-weight:normal;
+	  
+	  
+  }
+ article dd{
+	text-align:left;
+	margin:0;
+	padding:0;
+		
+	  
+  }
+
+article dd a{
+	text-align:left;
+	color: #145113;
+		
+		
+	  
+  }
+  
+  /* unvisited link */
+article dd a:link {
+    color: #145113;
+}
+
+/* visited link */
+
+article dd	a:visited{
+    color: #145113;
+	
+}
+
+/* mouse over link */
+   article dd a:hover{
+	text-align:left;
+	color: #145113;
+	font-weight:bold;
+		
+	  
+  }
+  
+  /* selected link */
+article dd  a:active {
+    color: #145113;
+	font-weight:bold;
+}
+
+/*******************************************
+   Style single column page
+********************************************/
+  .singlecolumn{
+	  width:60%;
+	  margin-left:20%;
+	  
+	  
+	  
+  }
+  
+  .singlecolumn h2{
+	  text-align:center;
+	  
+	  
+	  
+	  
+  }
+    .singlecolumn p{
+	  text-align:left;
+	  
+	  
+	  
+  }
+
+
+/*******************************************
+   Style contactUS form
+********************************************/
+#contactUS {
+	width:10%;
+	float:left;
+	margin-right:0%;
+	margin-left:2%;
+	margin-top:5%;
+	
+	 
+	  
+	  
+  }
+#contactUS h1{
+	text-align:center;
+	font-size:18px;
+	color: #258924;
+	
+  }
+  
+  #contactUS fieldset {
+border: 1px solid #348721;
+}
+  
+  
+ #contactUS label{
+
+font-weight: bold;
+color: #258924;
+ }
+
+
+
+
+
+
+/*******************************************
+   Style footer
+********************************************/
+/*footer{
+	margin: 0 auto;
+	width: 100%;
+	clear:both;
+	height:30px;
+  	
+	
+}*/
+footer {
+    position: fixed;
+    height: 50px;
+	background-color: #100F15;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+	padding-bottom:10px;
+}
+footer p{
+	margin-left:0%;
+	text-align: center;
+	color: #fff;
+	
+}
+
+ footer a{
+	  font-size:18px;
+	  text-decoration:none;
+	  color: #fff;
+	  
+  }
+/* unvisited link */
+	footer a:link {
+    
+}
+
+/* visited link */
+
+footer a:visited {
+    color: #145113;
+	
+	
+}
+	/* mouse over link */
+ footer a:hover{
+	text-align:left;
+	color: grey;
+	font-weight:bold;
+		
+	  
+  }
+  
+  #video{
+	  
+  width: 100% ;   
+  height: auto ;  
+ 
+  }
+  
+  .under_article_icons {
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	clear:both;
+	height:87px;
+	margin-bottom:10px;
+	  
+  }
+  
+  
+  
+
+
+.under_article_icons img{
+	margin-top:5%;
+	display:inline-block;
+	padding-bottom:5px;
+	margin-left:5%;
+	
+			
+}
+  
+ .boxes {
+	 width:100%;
+	 display:inline-block;
+	 text-align:center;
+	 margin:auto;
+	 clear:both;
+	 
+	 
+ }
+ .box{
+	width:20%;
+	vertical-align:top;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:20px;
+	 
+ }
+ .box img{
+	 width:50%;
+	 clear:both;
+	 display:inline-block;
+	
+	 
+ }
+ 
+.box_podcast{
+	
+	 
+	 clear:both;
+	 display:inline-block;
+	 width:100%;
+	 
+}
+ 
+ 
+ 
+  .box h3{
+	text-align:center;
+	
+	 
+ }
+/*******************************************
+   Style main menu. unordered list. Responsive
+********************************************/
+
+
+  
+@media screen and (max-width : 1280px){
+	
+	nav li {
+
+ font-family: 'Oswald', sans-serif;
+ font-size: 28px;
+ text-align: center;
+ width: 150px;
+ border-bottom: none;
+ height: 50px;
+ line-height: 50px;
+ display: inline-block;
+ background-color: #100F15;
+ margin-bottom:0;
+ padding:0;
+  }
+	
+	
+}
+
+
+@media screen and (max-width : 960px){
+	
+	nav li {
+
+ font-family: 'Oswald', sans-serif;
+ font-size: 26px;
+ text-align: center;
+ width: 140px;
+ border-bottom: none;
+ height: 50px;
+ line-height: 50px;
+ display: inline-block;
+ background-color: #100F15;
+ margin-bottom:0;
+ padding:0;
+  }
+	
+	
+}
+
+
+@media screen and (max-width : 840px){
+
+body{
+	width:100%;
+	margin:0;
+    padding:0;
+	
+}
+
+nav ul {
+  list-style-type:none;
+  text-align: center;
+  display: block;
+  width:100%;
+  margin: 0;
+  padding:0;
+  display: none;
+ 
+    
+	
+}
+
+.now{
+
+width: 100%;
+
+  }
+
+  
+  
+nav li {
+	
+	background-color: #100F15;
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	margin-bottom:1px;
+	width:100%;
+	display: inline-block;
+}
+
+
+nav ul a {
+	text-decoration:none;
+	color: #fff;
+	
+}
+
+
+
+nav li ul  {
+	
+	
+	display:none;
+	position: static;
+		
+}
+
+nav li:hover ul {
+	display:block;
+	background-color: grey;
+	
+	
+		
+}
+
+nav li ul li {
+	
+	background-color: green;
+	margin-bottom:1px;
+	
+		
+}
+/*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+	
+	
+	.logo{
+
+	background-color: #100F15;
+	background :url("http://mevstechnology.com/images/logo_small.png");
+	width:760px;
+	height:227px;
+	width:100%;
+	margin-top:0;
+  margin-left:0;
+  margin-right:0;
+  padding:0;
+	
+}
+
+.navigation p{
+	margin-left:0;
+	
+		
+}
+
+
+/* Pyt margin bottom so form can be in be scrolled down to middle of screen */
+#contactUS {
+	width:80%;	
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:1px;
+	margin-bottom:280px; 
+	clear:both;
+		  
+  }
+  
+  
+  .twoColmns{
+	margin-left:1%;
+	margin-right:1%;
+	width:98%;
+	clear:both;
+	padding-bottom:25px;
+	
+	
+}
+
+.twoColmns h2{
+	text-align:center;
+	font-size:25px;
+	color: #258924;
+}
+
+.twoColmns img{
+	margin-left:1%;
+	margin-right:1%;
+	width:98%;
+	clear:both;
+
+	
+	
+}
+
+.devices{
+	width:100%;
+	display:inline-block;
+	clear:both;
+	height:87px;
+	margin-bottom:10px;
+}
+
+.devices img{
+	display:inline-block;
+	clear:both;
+	padding-bottom:5px;
+	margin-left:20%;
+	
+	
+	
+}
+  
+  
+.threeColumns{
+	margin-left:1%;
+	margin-right:1%;
+	width:98%;
+	clear:both;
+	padding-bottom:25px;
+	
+	
+}
+
+.threeColumns img{
+	margin-left:1%;
+	margin-right:1%;
+	width:98%;
+	clear:both;
+
+	
+	
+}
+
+.threeColumns h2{
+	text-align:center;
+	font-size:25px;
+	color: #258924;
+}
+
+ .boxes {
+	 width:100%;
+	 display:inline-block;
+	 text-align:center;
+	 margin:auto;
+	 clear:both;
+	 
+	 
+ }
+ .box{
+	width:100%;
+	vertical-align:top;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:20px;
+	 
+ }
+ .box img{
+	 width:35%;
+	 clear:both;
+	 display:inline-block;
+	
+	 
+ }
+ 
+ 
+  .box h3{
+	text-align:center;
+	
+	 
+ }
+ 
+   .under_article_icons {
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	height:87px;
+	margin-bottom:10px;
+	  
+  }
+  
+  
+  
+
+
+.under_article_icons img{
+	margin-top:5%;
+	width:20%;
+	display:inline-block;
+	padding-bottom:5px;
+	margin-left:5%;
+	
+			
+}
+.singlecolumn{
+	  width:98%;
+	  margin-left:1%;
+	  margin-right:1%;
+	  
+	  
+  }
+  
+  .singlecolumn h2{
+	  text-align:center;
+	  
+	  
+	  
+  }
+    .singlecolumn p{
+	  text-align:left;
+	  
+	  
+	  
+  }
+  
+   .sidemenue{
+display:inline-block;
+padding:0;
+margin-top:5%;
+margin-left:5%;
+width:100%;
+height:auto;
+padding-bottom:5px;
+	
+
+	
+}
+
+.sidemenue img{
+	width:100px;
+	height:100px;
+	padding-top:20px;
+	
+	
+}
+}
+
+
+@media screen and (max-width : 400px){
+
+body{
+	width:100%;
+	margin:0;
+    padding:0;
+	
+}
+.singlecolumn{
+	  width:98%;
+	  margin-left:1%;
+	  margin-right:1%;
+	  
+	  
+  }
+  
+  .singlecolumn h2{
+	  text-align:center;
+	  
+	  
+	  
+  }
+    .singlecolumn p{
+	  text-align:left;
+	  
+	  
+	  
+  }
+nav ul {
+  list-style-type:none;
+  text-align: center;
+  display: block;
+  width:100%;
+  margin: 0;
+  padding:0;
+  display: none;
+ 
+    
+	
+}
+
+.now{
+
+width: 100%;
+
+  }
+
+  
+  
+nav li {
+	
+	background-color: #100F15;
+	font-family: 'Oswald', sans-serif;
+	font-size: 34px;
+	margin-bottom:1px;
+	width:100%;
+	display: inline-block;
+}
+
+
+nav ul a {
+	text-decoration:none;
+	color: #fff;
+	
+}
+
+
+
+nav li ul  {
+	
+	
+	display:none;
+	position: static;
+		
+}
+
+nav li:hover ul {
+	display:block;
+	background-color: grey;
+	
+	
+		
+}
+
+nav li ul li {
+	
+	background-color: green;
+	margin-bottom:1px;
+	
+		
+}
+/*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+	
+	
+	.logo{
+
+	background-color: #100F15;
+	background :url("http://mevstechnology.com/images/logo600.png");
+	width:760px;
+	height:227px;
+	width:100%;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	padding:0;
+	
+}
+
+.navigation p{
+	margin-left:0;
+	
+		
+}
+
+#contactUS {
+	width:80%;	
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:1px;
+	clear:both;
+
+	
+	 
+	  
+	  
+  }
+  
+  
+  .twoColmns{
+	margin-left:1%;
+	margin-right:1%;
+	width:98%;
+	clear:both;
+	padding-bottom:25px;
+	
+	
+}
+
+.twoColmns h2{
+	text-align:center;
+	font-size:25px;
+	color: #258924;
+	
+}	
+	.devices img{
+	display:inline-block;
+	clear:both;
+	padding-bottom:5px;
+	margin-left:10%;
+	
+	
+	
+
+}
+
+
+}
+
+
+

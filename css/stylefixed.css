@@ -1,0 +1,425 @@
+/*******************************************
+   Style main menu. unordered list. 
+********************************************/
+body{
+	width:1280px;
+	height:720px;
+	margin:0;
+    padding:0;
+background: rgba(5,4,5,1);
+background: linear-gradient(to bottom, rgba(5,4,5,1) 0%, rgba(59,53,59,1) 23%, rgba(199,163,199,1) 59%, rgba(255,255,255,1) 76%, rgba(255,255,255,1) 91%, rgba(255,255,255,1) 100%);
+	
+}
+
+
+nav ul {
+  list-style-type:none;
+  display: inline-block;
+  text-align: center;
+  width:90%;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:5%;
+  margin-right:5%;
+  padding:0;
+  background-color: #100F15;
+ 
+    
+	
+}
+
+nav li {
+
+ font-family: 'Oswald', sans-serif;
+ font-size: 30px;
+ text-align: center;
+ width: 160px;
+ border-bottom: none;
+ height: 50px;
+ line-height: 50px;
+ display: inline-block;
+ background-color: #100F15;
+ margin-bottom:0;
+ padding:0;
+  }
+  
+    
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: none;
+  }
+
+nav a:hover {
+  background-color: #14344D;
+}
+
+
+nav a.active {
+
+color: #14344D;
+
+}
+
+
+  /* Sub Menus */ 
+nav li ul {
+	
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+nav li:hover ul {
+    display: block;
+	margin-left:0;
+	margin-bottom:0;
+  }
+
+nav li ul li {
+    display: block;
+	font-size: 24px;
+  }
+
+
+  
+
+
+
+.logo{
+
+	background-color: #100F15;
+	background :url("http://mevstechnology.com/images/logo.jpg");
+	width:1220px;
+	height:356px;
+	width:90%;
+	margin-top:0;
+  margin-left:5%;
+  margin-right:5%;
+  padding:0;
+	
+}
+
+.now{
+height: 50px;
+
+text-decoration: none;
+  color: grey;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color:#14344D;
+  }
+
+/*******************************************
+   Style Navigation url under logo
+********************************************/
+
+
+.navigation p{
+	margin-left:5%;
+	font-size:14px;
+	color: #145113;
+	padding-bottom:0;
+		
+}
+.navigation  a{
+	  
+	  text-decoration:none;
+	  color: #145113;
+	  padding-bottom:0;
+	  
+  }
+
+
+	/* mouse over link */
+.navigation a:hover{
+	text-align:left;
+	color: #145113;
+	font-weight:bold;
+		
+	  
+  }
+
+
+
+/*******************************************
+   Style article
+********************************************/
+  
+  
+  article{
+	margin-left:5%;
+	width:90%;
+	float:left;
+	padding-bottom:100px;
+	
+	
+	
+}
+
+
+
+
+article h1{
+	text-align:center;	
+	font-size:35px;
+	color: #258924;
+	font-weight: bold;
+}
+
+article h2{
+	text-align:left;
+	font-size:25px;
+	color: #258924;
+	
+}
+
+article h3{
+	text-align:left;
+	font-size:22px;
+	color: #258924;
+	
+}
+article p {
+	
+	text-align:left;
+	font-size:18px;
+	color: #258924;
+	padding-left:5px;
+	margin-bottom:10px;
+	
+}
+  
+  
+article img{	
+	display: block;
+    margin: 0 auto;
+  }
+  
+article a{
+	font-size:18px;
+	text-decoration:none;
+	color: #145113;
+	  
+  }
+  
+/* unvisited link */
+	article a:link {
+    font-size:18px;
+	text-decoration:none;
+	color: #145113;
+}
+
+/* visited link */
+
+article a:visited {
+    color: #145113;
+	text-decoration:none;
+}
+
+/* mouse over link */
+article a:hover{
+	text-align:left;
+	color: #145113;
+	font-weight:bold;
+		
+	  
+  }
+  
+  
+/* selected link */
+article  a:active {
+    color: #145113;
+	font-weight:bold;
+}
+	
+
+
+
+/*******************************************
+   Style contactUS form
+********************************************/
+#contactUS {
+	width:300px;
+	float:left;
+	margin-left:490px;
+	margin-bottom:200px;
+	padding:0;
+	
+	
+	 
+	  
+	  
+  }
+#contactUS h1{
+	text-align:center;
+	font-size:18px;
+	color: #258924;
+	
+  }
+  
+  #contactUS fieldset {
+border: 1px solid #348721;
+}
+  
+  
+ #contactUS label{
+
+font-weight: bold;
+color: #258924;
+ }
+ 
+ .social{
+	 display:inline-block;
+	 margin-left:30px;
+	 padding-top:2px;
+	 height: 58px;
+	 width: 250px; 
+     border-radius: 15%;
+     overflow: hidden;
+	 border:1px solid purple;
+	
+	 
+ }
+ 
+
+ 
+ .social:hover, .social:visited, .social:link, .social:active
+{
+    text-decoration: none;
+}
+ 
+ 
+
+ .instagram {	 
+	color:purple;
+	font-size:32px;
+	position: absolute;
+	text-align: left;
+	top:530px;
+	left:170px;
+	
+	}
+	  
+
+ .facebook {	 
+	color:#475993;
+	font-size:32px;
+	position: absolute;
+	text-align: left;
+	top:530px;
+	left:455px;
+	
+	}
+
+ .tweeter {	 
+	color:#76a9ea;
+	font-size:32px;
+	position: absolute;
+	text-align: left;
+	top:530px;
+	left:730px;
+	
+	}	
+
+ .whatsapp {	 
+	color:#97da8d;
+	font-size:32px;
+	position: absolute;
+	text-align: left;
+	top:530px;
+	left:1020px;
+	
+	  } 
+
+
+
+
+
+
+
+/*******************************************
+   Style footer
+********************************************/
+/*footer{
+	margin: 0 auto;
+	width: 100%;
+	clear:both;
+	height:30px;
+  	
+	
+}*/
+footer {
+    position: fixed;
+    height: 50px;
+	background-color: #100F15;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+	padding-bottom:10px;
+}
+footer p{
+	margin-left:0%;
+	text-align: center;
+	color: #fff;
+	
+}
+
+ footer a{
+	  font-size:18px;
+	  text-decoration:none;
+	  color: #fff;
+	  
+  }
+/* unvisited link */
+	footer a:link {
+    
+}
+
+/* visited link */
+
+footer a:visited {
+    color: #145113;
+	
+	
+}
+	/* mouse over link */
+ footer a:hover{
+	text-align:left;
+	color: grey;
+	font-weight:bold;
+		
+	  
+  }
+  
+  
+#contactUS {
+	width:300px;
+
+	
+	 
+	  
+	  
+  }
+#contactUS h1{
+	text-align:center;
+	font-size:18px;
+	color: #258924;
+	
+  }
+  
+#contactUS fieldset {
+border: 1px solid #348721;
+}
+  
+  
+ #contactUS label{
+
+font-weight: bold;
+color: #258924;
+ }

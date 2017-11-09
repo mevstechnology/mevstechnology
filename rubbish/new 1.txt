@@ -1,0 +1,116 @@
+/*******************************************
+   Style main menu. unordered list. 
+********************************************/
+
+body{
+	font-family: 'Oswald', sans-serif;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+
+nav ul {
+  list-style: none;
+  background-color: #100F15;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+}
+
+
+
+
+nav li {
+
+ font-family: 'Oswald', sans-serif;
+  font-size: 34px;
+ text-align: center;
+ width: 195px;
+ border-bottom: none;
+ height: 50px;
+ line-height: 50px;
+ display: inline-block;
+background-color: #100F15;
+  }
+  
+    
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: none;
+  }
+
+nav a:hover {
+  background-color: #14344D;
+}
+
+
+nav a.active {
+
+color: #14344D;
+
+}
+
+
+  /* Sub Menus */
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+nav li:hover ul {
+    display: block;
+  }
+
+nav li ul li {
+    display: block;
+	font-size: 24px;
+  }
+
+
+
+.now{
+height: 50px;
+width: 195px;
+text-decoration: none;
+  color: red;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color:#14344D;
+  }
+
+  /*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+	body{
+	font-family: 'Oswald', sans-serif;
+	width:100%;
+	margin-left:0%;
+	margin-right:0%;
+	background-color:red;
+}
+
+  nav ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+   nav li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+  nav ul li, li a {
+        width: 100%;
+    }
+}
+  
+  
+
